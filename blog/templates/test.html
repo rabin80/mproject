@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./static/style.css" />
+    <title>Photograph and Video Reconditioning System - Home Page</title>
+  </head>
+  <body>
+    <!-- Page Header -->
+    <header>
+      <h1>Photograph and Video Reconditioning System</h1>
+    </header>
+
+    <!-- Main Body -->
+    <main class="form-container">
+      <form method="post" enctype="multipart/form-data">
+        <div class="form-gorup">
+          <label for="file">Upload a Photo or Video</label>
+          <input type="file" name="file" id="file" />
+        </div>
+
+        <button type="submit" id="btn" value="submit">Recondition</button>
+      </form>
+
+      <!-- This ouput should be dynamic -->
+      <section class="result">
+        
+      </section>
+    </main>
+  </body>
+</html>
